@@ -2,6 +2,7 @@ import React from 'react'
 import Cards from './components/cards/Cards'
 import Charts from './components/chart/Charts'
 import Countrypickers from './components/countrypicker/Countrypickers'
+import Footer from './components/footer/Footer'
 import styles from './App.module.css'
 import {fetchData} from './api/index'
 import coronamage from './images/image.png'
@@ -51,6 +52,7 @@ class App extends React.Component
           <Cards data = {data}/>
           <Countrypickers handleCountryChange = {this.handleCountryChange} />
           <Charts data = {data} country = {country}/>
+          <Footer />
       </div>
    
     )

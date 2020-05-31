@@ -1,5 +1,23 @@
 .formcontrol
 {
+    margin-top: 10px;
     width: 30%;
+    padding: 10px;
+    background-color: aquamarine;
     margin-bottom: 30px !important;
+}
+
+@media (max-width : 770px)
+{
+    .formcontrol
+    {
+        width: 60%;
+        padding: 10px;
+        background-color: aquamarine;
+        margin-bottom: 30px !important;
+        margin-top: 30px !important;
+        
+    }
+
+   
 }

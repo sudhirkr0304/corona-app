@@ -2,7 +2,7 @@
   "name": "corona-app",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://sudhirkr0304.github.io/",
+  "homepage" : ".",
   "dependencies": {
     "@material-ui/core": "^4.10.0",
     "@testing-library/jest-dom": "^4.2.4",

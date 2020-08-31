@@ -52,7 +52,7 @@ class App extends React.Component
           <Cards data = {data}/>
           <Countrypickers handleCountryChange = {this.handleCountryChange} />
           <Charts data = {data} country = {country}/>
-          <Footer />
+          
       </div>
    
     )
